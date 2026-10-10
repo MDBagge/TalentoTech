@@ -2,7 +2,7 @@
 
 Tienda artesanal de accesorios y elementos para juegos de rol en la mesa. Dados de resina, cuadernos y objetos de coleccionismo hechos a mano.
 
-🔗 Sitio publicado: [Enlace pendiente de deploy]
+🔗 Sitio publicado: [https://mdbagge.github.io/TalentoTech/]
 
 ## Páginas
 - `index.html`: Página principal con productos principales (grilla de inventario) y reseñas.
