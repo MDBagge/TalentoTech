@@ -21,4 +21,4 @@ El sitio web cuenta con una navegación multipágina unificada:
 
 ## Proyecto Publicado
 El sitio se encuentra optimizado y desplegado en línea para su visualización:
-👉 [Ver sitio en producción](https://tu-enlace-de-deploy.com)
+👉 [Ver sitio en producción](https://mdbagge.github.io/TalentoTech/)
