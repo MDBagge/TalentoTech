@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - La Forja de Velkarys</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra fija superior -->
+    <div class="barra-tienda">
+        <div>Logia de Artesanos</div>
+        <div class="acciones-tienda">
+            <span class="item-tienda">Mi Cuenta</span>
+            <span class="item-tienda">Morral (0)</span>
+        </div>
+    </div>
+
+    <!-- Header unificado -->
+    <header id="encabezado">
+        <nav class="navegacion">
+            <ul class="menu-lista">
+                <li><a href="index.html" class="pestana">Inicio</a></li>
+                <li><a href="index.html#inventario" class="pestana">Inventario</a></li>
+                <li><a href="taller.html" class="pestana">El Taller</a></li>
+                <li><a href="contacto.html" class="pestana activo">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="cartel-hero contenedor">
+            <h1 class="fuente-epica">Contacto</h1>
+            <div class="separador"></div>
+            <p>Enviar una lechuza a la forja. Encargos especiales y consultas.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="seccion-contacto contenedor">
+            <form action="https://formspree.io/f/xeaekodn" method="POST" class="formulario-contacto">
+                <div class="campo-grupo">
+                    <label for="nombre" class="label-contacto">Nombre / Alias de Aventurero</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Elminster de Valle Sombra" class="input-contacto">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="email" class="label-contacto">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="tu-correo@reinos.com" class="input-contacto">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="mensaje" class="label-contacto">Mensaje o Enmienda</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribí los detalles de tu encargo o consulta..." class="input-contacto textarea-contacto"></textarea>
+                </div>
+
+                <button type="submit" class="boton-comprar boton-enviar">Forjar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <p>&copy; 2026 La Forja de Velkarys. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

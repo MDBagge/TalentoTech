@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Taller - La Forja de Velkarys</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!-- Vinculamos el archivo unificado styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra fija superior -->
+    <div class="barra-tienda">
+        <div>Logia de Artesanos</div>
+        <div class="acciones-tienda">
+            <span class="item-tienda">Mi Cuenta</span>
+            <span class="item-tienda">Morral (0)</span>
+        </div>
+    </div>
+
+    <!-- Header unificado con la misma navegación -->
+    <header id="encabezado">
+        <nav class="navegacion">
+            <ul class="menu-lista">
+                <li><a href="index.html" class="pestana">Inicio</a></li>
+                <li><a href="index.html#inventario" class="pestana">Inventario</a></li>
+                <li><a href="taller.html" class="pestana activo">El Taller</a></li>
+                <li><a href="contacto.html" class="pestana">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="cartel-hero contenedor">
+            <h1 class="fuente-epica">El Taller</h1>
+            <div class="separador"></div>
+            <p>Manufactura artesanal de accesorios para mesas de rol. Resina, cuero y horas de prueba y error.</p>
+        </div>
+    </header>
+
+    <main class="contenedor-taller">
+        <!-- El contenedor físico que separa el texto del fondo -->
+        <article class="bitacora-artesano">
+            <header class="cabecera-bitacora">
+                <h2 class="fuente-epica titulo-seccion-principal">El Peso de la Materia</h2>
+                <div class="linea-decorativa"></div>
+            </header>
+            
+            <div class="layout-mixto">
+                <div class="columna-texto">
+                    <p class="parrafo-capital">Todo comienza con el cálculo exacto de la resina. No hay automatización en esta forja; cada set de dados, cada encuadernación y cada amuleto nace de un proceso netamente manual donde la viscosidad, el clima y los pigmentos dictan el resultado final.</p>
+                    
+                    <p>Trabajamos con resinas de alta densidad, micas oscuras y metales pesados. El objetivo no es hacer un accesorio más de plástico inyectado, sino forjar artefactos que tengan presencia real, textura y un peso satisfactorio cuando impactan contra la mesa en medio de una sesión.</p>
+                </div>
+                
+                <div class="columna-imagen">
+                    <!-- Ruta limpia de imagen asegurando minúsculas y formato correcto -->
+                    <figure class="marco-foto">
+                        <img src="img/mesa-trabajo.jpg" alt="Proceso de lijado manual de dados">
+                        <figcaption>Donde sucede nuestra magia.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="layout-mixto inverso">
+                <div class="columna-texto">
+                    <h3 class="fuente-epica subtitulo">El Banco de Pruebas</h3>
+                    <p>Además de la manufactura regular, el taller funciona como el banco de pruebas físico para nuestras campañas. La regla de oro es que todo objeto que sale de acá tiene que sentirse bien en la vida real.</p>
+                    <p>Las pequeñas variaciones en la distribución de las escamas de mica dentro del dado no son defectos, son la firma de que fue curado a mano, una pieza a la vez.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer unificado -->
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <p>&copy; 2026 La Forja de Velkarys. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Forja de Velkarys</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra fija superior para e-commerce -->
+    <div class="barra-tienda">
+        <div>Logia de Artesanos</div>
+        <div class="acciones-tienda">
+            <span class="item-tienda">Mi Cuenta</span>
+            <span class="item-tienda">Morral (0)</span>
+        </div>
+    </div>
+
+    <header id="encabezado">
+        <nav class="navegacion">
+            <ul class="menu-lista">
+                <li><a href="index.html" class="pestana activo">Inicio</a></li>
+                <li><a href="inventario.html" class="pestana">Inventario</a></li>
+                <li><a href="taller.html" class="pestana">El Taller</a></li>
+                <li><a href="contacto.html" class="pestana">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="cartel-hero contenedor">
+            <h1 class="fuente-epica">La Forja de Velkarys</h1>
+            <div class="separador"></div>
+            <p>Reliquias, resinas y artefactos forjados en el Underdark.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="inventario" class="seccion-inventario contenedor">
+            <div class="titulo-seccion-contenedor">
+                <h2 class="fuente-epica titulo-seccion-principal">Recién salidos del molde</h2>
+            </div>
+
+            <div class="grilla-productos">
+                <article class="tarjeta-producto">
+                    <img src="img/dados.jpg" alt="Set de Dados del Vacío" class="foto-producto">
+                    <h3 class="fuente-epica">Set de Dados del Vacío</h3>
+                    <p>Resina de alta densidad con inclusiones de mica oscura. Balanceados a mano.</p>
+                    <span class="precio">45 PO</span>
+                    <button class="boton-comprar">Añadir al Morral</button>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="img/pocion.jpg" alt="Poción de Descanso Largo" class="foto-producto">
+                    <h3 class="fuente-epica">Poción de Descanso Largo</h3>
+                    <p>Frasco sellado con lacre. Ideal para adornar la mesa del Dungeon Master.</p>
+                    <span class="precio">30 PO</span>
+                    <button class="boton-comprar">Añadir al Morral</button>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="img/libro.jpg" alt="Bitácora del Nigromante" class="foto-producto">
+                    <h3 class="fuente-epica">Bitácora del Nigromante</h3>
+                    <p>Encuadernación artesanal con tapas grabadas. Papel avejentado.</p>
+                    <span class="precio">65 PO</span>
+                    <button class="boton-comprar">Añadir al Morral</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN RESEÑAS CON CSS GRID -->
+        <section class="seccion-resenas contenedor">
+            <div class="titulo-seccion-contenedor">
+                <h2 class="fuente-epica titulo-seccion-principal">Crónicas de la Mesa</h2>
+                <div class="separador"></div>
+                <p class="subtitulo-seccion">Lo que dicen los Dungeon Masters y aventureros que ya equiparon sus partidas.</p>
+            </div>
+
+            <div class="grilla-resenas">
+                <article class="tarjeta-resena">
+                    <p class="texto-resena">"Los dados del vacío tienen un peso perfecto y el balanceo es impecable. Se volvieron mis favoritos para tirar iniciativa en cada sesión."</p>
+                    <span class="autor-resena">— Marcos G., DM de D&D</span>
+                </article>
+
+                <article class="tarjeta-resena">
+                    <p class="texto-resena">"La bitácora tiene un nivel de detalle increíble. El papel avejentado y las tapas hacen que parezca un objeto de época real."</p>
+                    <span class="autor-resena">— Sofía R., Jugadora de Rol</span>
+                </article>
+
+                <article class="tarjeta-resena">
+                    <p class="texto-resena">"Se nota el trabajo artesanal en cada pieza. La poción decorativa se robó todas las miradas en nuestra última juntada."</p>
+                    <span class="autor-resena">— Lucas V., Master de Rol en Mesa</span>
+                </article>
+            </div>
+        </section>
+    </main>
+
+        <!-- Footer -->
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <p>&copy; 2026 La Forja de Velkarys. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
